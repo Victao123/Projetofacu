@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: #cec9c9;
+}
+
+.header{
+    background-color: #004AAD;
+    padding: 15px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #004AAD;
+}
+.post p{
+    margin: 10px 0;
+    text-align: justify;
+}
+span{
+    color: white;
+}
+.menu, .logo{
+    padding: 15px;
+}
+
+.menu a,.menu a:visited{
+    color: black;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 8px 12px;
+}
+
+.menu a:hover{
+    background-color: aliceblue;
+    color: #004AAD;
+}
+.container{
+    width: 920px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.post{
+    padding: 20px;
+    background-color: white;
+}
+.posts{
+    width: 660px;
+    
+    float: left;
+} 
+.data-post{
+    color: black;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    display: block;
+}
+
+
+.barra-lateral{
+    width: 240px;
+    float: right;
+    background-color: white;
+}
+
+.footer{
+    padding-top: 10px;
+    clear: both;
+    margin-left: 33.3%;
+}
+
+.footer .logo{
+    align-items: center;
+}
+
+.post-destaque{
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
